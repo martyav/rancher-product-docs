@@ -432,7 +432,7 @@ Here you can find links to supporting documentation for legacy versions of v2.0-
 |===
 | Version | Documentation
 
-| *v2.9.1*
+| *v2.0-v2.4*
 | https://ranchermanager.docs.rancher.com/v2.9[Documentation]
 
 |===
