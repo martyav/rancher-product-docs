@@ -18,7 +18,7 @@ Cross reference the image and reference table below to learn how to obtain this 
 
 ^Terminal `docker ps` Command, Displaying Where to Find `<RANCHER_CONTAINER_TAG>` and `<RANCHER_CONTAINER_NAME>`^
 
-image::/img/placeholder-ref.png[Placeholder Reference]
+image:::placeholder-ref.png[Placeholder Reference]
 
 | Placeholder                | Example                    | Description                                               |
 | ------------------ | ------------------ | -------------------------------------- |
