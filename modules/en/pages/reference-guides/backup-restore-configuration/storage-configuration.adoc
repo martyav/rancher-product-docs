@@ -16,7 +16,7 @@ You can choose to not have any operator-level storage location configured. If yo
 | Parameter | Description
 
 | Credential Secret
-| Choose the credentials for S3 from your secrets in Rancher. link:backup-configuration.adoc#example-credentialsecret[Example].
+| Choose the credentials for S3 from your secrets in Rancher. backup-configuration.adoc#example-credentialsecret[Example].
 
 | Bucket Name
 | Enter the name of the https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html[S3 bucket] where the backups will be stored. Default: `rancherbackups`.
@@ -54,7 +54,7 @@ If no such StorageClass is available, after the PV is provisioned, make sure to 
 
 === Existing Persistent Volume
 
-Select an existing Persistent Volume (PV) that will be used to store your backups. For information about creating PersistentVolumes in Rancher, refer to link:../../how-to-guides/new-user-guides/manage-clusters/create-kubernetes-persistent-storage/manage-persistent-storage/set-up-existing-storage.adoc#2-add-a-persistentvolume-that-refers-to-the-persistent-storage[this section.]
+Select an existing Persistent Volume (PV) that will be used to store your backups. For information about creating PersistentVolumes in Rancher, refer to ../../how-to-guides/new-user-guides/manage-clusters/create-kubernetes-persistent-storage/manage-persistent-storage/set-up-existing-storage.adoc#2-add-a-persistentvolume-that-refers-to-the-persistent-storage[this section.]
 
 [NOTE]
 .Important:

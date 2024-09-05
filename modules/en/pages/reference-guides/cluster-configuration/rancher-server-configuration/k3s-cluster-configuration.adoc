@@ -182,9 +182,9 @@ Add hostnames or IPv4/IPv6 addresses as Subject Alternative Names on the server 
 
 Authorized Cluster Endpoint can be used to directly access the Kubernetes API server, without requiring communication through Rancher.
 
-For more detail on how an authorized cluster endpoint works and why it is used, refer to the link:../../../reference-guides/rancher-manager-architecture/communicating-with-downstream-user-clusters.adoc#4-authorized-cluster-endpoint[architecture section.]
+For more detail on how an authorized cluster endpoint works and why it is used, refer to the ../../../reference-guides/rancher-manager-architecture/communicating-with-downstream-user-clusters.adoc#4-authorized-cluster-endpoint[architecture section.]
 
-We recommend using a load balancer with the authorized cluster endpoint. For details, refer to the link:../../rancher-manager-architecture/architecture-recommendations.adoc#architecture-for-an-authorized-cluster-endpoint-ace[recommended architecture section.]
+We recommend using a load balancer with the authorized cluster endpoint. For details, refer to the ../../rancher-manager-architecture/architecture-recommendations.adoc#architecture-for-an-authorized-cluster-endpoint-ace[recommended architecture section.]
 
 ==== Registries
 

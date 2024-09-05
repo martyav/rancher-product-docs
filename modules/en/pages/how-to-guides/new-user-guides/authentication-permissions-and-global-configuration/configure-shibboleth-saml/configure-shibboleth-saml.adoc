@@ -89,7 +89,7 @@ ____
 Configure the settings for the OpenLDAP server, groups and users. For help filling out each field, refer to the xref:../configure-openldap/openldap-config-reference.adoc[configuration reference.] Note that nested group membership is not available for Shibboleth.
 
 ____
-Before you proceed with the configuration, please familiarise yourself with the concepts of link:../authentication-config/authentication-config.adoc#external-authentication-configuration-and-principal-users[External Authentication Configuration and Principal Users].
+Before you proceed with the configuration, please familiarise yourself with the concepts of ../authentication-config/authentication-config.adoc#external-authentication-configuration-and-principal-users[External Authentication Configuration and Principal Users].
 ____
 
 . Log into the Rancher UI using the initial local `admin` account.
@@ -100,4 +100,4 @@ ____
 
 == Troubleshooting
 
-If you are experiencing issues while testing the connection to the OpenLDAP server, first double-check the credentials entered for the service account as well as the search base configuration. You may also inspect the Rancher logs to help pinpointing the problem cause. Debug logs may contain more detailed information about the error. Please refer to link:../../../../faq/technical-items.adoc#how-can-i-enable-debug-logging[How can I enable debug logging] in this documentation.
+If you are experiencing issues while testing the connection to the OpenLDAP server, first double-check the credentials entered for the service account as well as the search base configuration. You may also inspect the Rancher logs to help pinpointing the problem cause. Debug logs may contain more detailed information about the error. Please refer to ../../../../faq/technical-items.adoc#how-can-i-enable-debug-logging[How can I enable debug logging] in this documentation.

@@ -6,7 +6,7 @@ The following instructions will guide you through upgrading a Rancher server tha
 
 == Prerequisites
 
-* *Review the link:../../install-upgrade-on-a-kubernetes-cluster/upgrades.adoc#known-upgrade-issues[known upgrade issues]* section in the Rancher documentation for the most noteworthy issues to consider when upgrading Rancher. A more complete list of known issues for each Rancher version can be found in the release notes on https://github.com/rancher/rancher/releases[GitHub] and on the https://forums.rancher.com/c/announcements/12[Rancher forums]. Note that upgrades to or from any chart in the link:../../resources/choose-a-rancher-version.adoc#helm-chart-repositories[rancher-alpha repository] aren't supported.
+* *Review the ../../install-upgrade-on-a-kubernetes-cluster/upgrades.adoc#known-upgrade-issues[known upgrade issues]* section in the Rancher documentation for the most noteworthy issues to consider when upgrading Rancher. A more complete list of known issues for each Rancher version can be found in the release notes on https://github.com/rancher/rancher/releases[GitHub] and on the https://forums.rancher.com/c/announcements/12[Rancher forums]. Note that upgrades to or from any chart in the ../../resources/choose-a-rancher-version.adoc#helm-chart-repositories[rancher-alpha repository] aren't supported.
 * *For xref:../air-gapped-helm-cli-install/air-gapped-helm-cli-install.adoc[air gap installs only,] collect and populate images for the new Rancher server version*. Follow the guide to xref:../air-gapped-helm-cli-install/publish-images.adoc[populate your private registry] with the images for the Rancher version that you want to upgrade to.
 
 == Placeholder Review
@@ -113,9 +113,9 @@ Start a new Rancher server container using the data from the `rancher-data` cont
 
 If you used a proxy, see xref:../../../../reference-guides/single-node-rancher-in-docker/http-proxy-configuration.adoc[HTTP Proxy Configuration.]
 
-If you configured a custom CA root certificate to access your services, see link:../../../../reference-guides/single-node-rancher-in-docker/advanced-options.adoc#custom-ca-certificate[Custom CA root certificate.]
+If you configured a custom CA root certificate to access your services, see ../../../../reference-guides/single-node-rancher-in-docker/advanced-options.adoc#custom-ca-certificate[Custom CA root certificate.]
 
-If you are recording all transactions with the Rancher API, see link:../../../../reference-guides/single-node-rancher-in-docker/advanced-options.adoc#api-audit-log[API Auditing]
+If you are recording all transactions with the Rancher API, see ../../../../reference-guides/single-node-rancher-in-docker/advanced-options.adoc#api-audit-log[API Auditing]
 
 To see the command to use when starting the new Rancher server container, choose from the following options:
 

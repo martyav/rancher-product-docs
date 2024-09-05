@@ -13,7 +13,7 @@ Only `Active` node drivers are displayed in the Rancher UI when you create node 
 To create, edit, or delete drivers, you need _one_ of the following permissions:
 
 * xref:../manage-role-based-access-control-rbac/global-permissions.adoc[Administrator Global Permissions]
-* link:../manage-role-based-access-control-rbac/global-permissions.adoc#custom-global-permissions[Custom Global Permissions] with the xref:../manage-role-based-access-control-rbac/global-permissions.adoc[Manage Node Drivers] role assigned.
+* ../manage-role-based-access-control-rbac/global-permissions.adoc#custom-global-permissions[Custom Global Permissions] with the xref:../manage-role-based-access-control-rbac/global-permissions.adoc[Manage Node Drivers] role assigned.
 ====
 
 

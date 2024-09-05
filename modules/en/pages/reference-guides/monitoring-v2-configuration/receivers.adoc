@@ -5,7 +5,7 @@ The https://prometheus.io/docs/alerting/latest/configuration/#configuration-file
 [NOTE]
 ====
 
-This section assumes familiarity with how monitoring components work together. For more information about Alertmanager, see link:../../integrations-in-rancher/monitoring-and-alerting/how-monitoring-works.adoc#3-how-alertmanager-works[this section.]
+This section assumes familiarity with how monitoring components work together. For more information about Alertmanager, see ../../integrations-in-rancher/monitoring-and-alerting/how-monitoring-works.adoc#3-how-alertmanager-works[this section.]
 ====
 
 
@@ -358,4 +358,4 @@ For more information on enabling alerting for `rancher-cis-benchmark`, see xref:
 
 == Trusted CA for Notifiers
 
-If you need to add a trusted CA to your notifier, follow the steps in link:helm-chart-options.adoc#trusted-ca-for-notifiers[this section.]
+If you need to add a trusted CA to your notifier, follow the steps in helm-chart-options.adoc#trusted-ca-for-notifiers[this section.]

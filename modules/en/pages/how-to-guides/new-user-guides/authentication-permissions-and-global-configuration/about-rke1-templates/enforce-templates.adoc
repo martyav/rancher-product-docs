@@ -8,9 +8,9 @@ By default, any standard user in Rancher can create clusters. But when RKE templ
 * All standard users must use an RKE template to create a new cluster.
 * Standard users cannot create a cluster without using a template.
 
-Users can only create new templates if the administrator link:creator-permissions.adoc#allowing-a-user-to-create-templates[gives them permission.]
+Users can only create new templates if the administrator creator-permissions.adoc#allowing-a-user-to-create-templates[gives them permission.]
 
-After a cluster is created with an RKE template, the cluster creator cannot edit settings that are defined in the template. The only way to change those settings after the cluster is created is to link:apply-templates.adoc#updating-a-cluster-created-with-an-rke-template[upgrade the cluster to a new revision] of the same template. If cluster creators want to change template-defined settings, they would need to contact the template owner to get a new revision of the template. For details on how template revisions work, refer to the link:manage-rke1-templates.adoc#updating-a-template[documentation on revising templates.]
+After a cluster is created with an RKE template, the cluster creator cannot edit settings that are defined in the template. The only way to change those settings after the cluster is created is to apply-templates.adoc#updating-a-cluster-created-with-an-rke-template[upgrade the cluster to a new revision] of the same template. If cluster creators want to change template-defined settings, they would need to contact the template owner to get a new revision of the template. For details on how template revisions work, refer to the manage-rke1-templates.adoc#updating-a-template[documentation on revising templates.]
 
 == Requiring New Clusters to Use an RKE Template
 

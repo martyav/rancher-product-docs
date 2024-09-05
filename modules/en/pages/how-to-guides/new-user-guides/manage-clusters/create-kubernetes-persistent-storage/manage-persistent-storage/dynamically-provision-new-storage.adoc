@@ -16,7 +16,7 @@ To provision new storage for your workloads, follow these steps:
 
 === Prerequisites
 
-* To set up persistent storage, the `Manage Volumes` link:../../../authentication-permissions-and-global-configuration/manage-role-based-access-control-rbac/cluster-and-project-roles.adoc#project-role-reference[role] is required.
+* To set up persistent storage, the `Manage Volumes` ../../../authentication-permissions-and-global-configuration/manage-role-based-access-control-rbac/cluster-and-project-roles.adoc#project-role-reference[role] is required.
 * If you are provisioning storage for a cluster hosted in the cloud, the storage and cluster hosts must have the same cloud provider.
 * The cloud provider must be enabled. For details on enabling cloud providers, refer to xref:../../../kubernetes-clusters-in-rancher-setup/set-up-cloud-providers/set-up-cloud-providers.adoc[this page.]
 * Make sure your storage provisioner is available to be enabled.

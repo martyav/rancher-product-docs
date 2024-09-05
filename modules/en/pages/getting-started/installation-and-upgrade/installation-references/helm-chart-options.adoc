@@ -56,7 +56,7 @@ For information on enabling experimental features, refer to xref:../../../how-to
 
 | `agentTLSMode`
 | ""
-| `string` - either `system-store` or `strict`. See link:./tls-settings.adoc#agent-tls-enforcement[Agent TLS Enforcement]
+| `string` - either `system-store` or `strict`. See ./tls-settings.adoc#agent-tls-enforcement[Agent TLS Enforcement]
 |
 
 | `antiAffinity`
@@ -191,7 +191,7 @@ For information on enabling experimental features, refer to xref:../../../how-to
 
 | `restrictedAdmin`
 | `false`
-| `bool` - When this option is set to `true`, the initial Rancher user has restricted access to the local Kubernetes cluster to prevent privilege escalation. For more information, see the section about the link:../../../how-to-guides/new-user-guides/authentication-permissions-and-global-configuration/manage-role-based-access-control-rbac/global-permissions.adoc#restricted-admin[restricted-admin role].
+| `bool` - When this option is set to `true`, the initial Rancher user has restricted access to the local Kubernetes cluster to prevent privilege escalation. For more information, see the section about the ../../../how-to-guides/new-user-guides/authentication-permissions-and-global-configuration/manage-role-based-access-control-rbac/global-permissions.adoc#restricted-admin[restricted-admin role].
 |
 
 | `systemDefaultRegistry`
@@ -219,7 +219,7 @@ For information on enabling experimental features, refer to xref:../../../how-to
 
 You can xref:../resources/bootstrap-password.adoc[set a specific bootstrap password] during Rancher installation. If you don't set a specific bootstrap password, Rancher randomly generates a password for the first admin account.
 
-When you log in for the first time, use the bootstrap password you set to log in. If you did not set a bootstrap password, the Rancher UI shows commands that can be used to link:../resources/bootstrap-password.adoc#retrieving-the-bootstrap-password[retrieve the bootstrap password]. Run those commands and log in to the account. After you log in for the first time, you are asked to reset the admin password.
+When you log in for the first time, use the bootstrap password you set to log in. If you did not set a bootstrap password, the Rancher UI shows commands that can be used to ../resources/bootstrap-password.adoc#retrieving-the-bootstrap-password[retrieve the bootstrap password]. Run those commands and log in to the account. After you log in for the first time, you are asked to reset the admin password.
 
 === API Audit Log
 

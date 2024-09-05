@@ -364,7 +364,7 @@ Permissions required for Rancher to install the Amazon EBS CSI Driver add-on.
 
 The EKS provisioner can synchronize the state of an EKS cluster between Rancher and the provider. For an in-depth technical explanation of how this works, see xref:../../../../reference-guides/cluster-configuration/rancher-server-configuration/sync-clusters.adoc[Syncing.]
 
-For information on configuring the refresh interval, refer to link:../../../../reference-guides/cluster-configuration/rancher-server-configuration/eks-cluster-configuration.adoc#configuring-the-refresh-interval[this section.]
+For information on configuring the refresh interval, refer to ../../../../reference-guides/cluster-configuration/rancher-server-configuration/eks-cluster-configuration.adoc#configuring-the-refresh-interval[this section.]
 
 == Troubleshooting
 

@@ -1,6 +1,6 @@
 = Setting up a High-availability RKE2 Kubernetes Cluster for Rancher
 
-This section describes how to install a Kubernetes cluster according to the link:../../../reference-guides/rancher-manager-architecture/architecture-recommendations.adoc#environment-for-kubernetes-installations[best practices for the Rancher server environment.]
+This section describes how to install a Kubernetes cluster according to the ../../../reference-guides/rancher-manager-architecture/architecture-recommendations.adoc#environment-for-kubernetes-installations[best practices for the Rancher server environment.]
 
 == Prerequisites
 

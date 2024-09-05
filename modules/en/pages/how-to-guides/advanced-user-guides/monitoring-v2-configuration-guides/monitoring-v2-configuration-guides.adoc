@@ -6,7 +6,7 @@ For information on configuring custom scrape targets and rules for Prometheus, p
 
 == Setting Resource Limits and Requests
 
-The resource requests and limits for the monitoring application can be configured when installing `rancher-monitoring`. For more information about the default limits, see link:../../../reference-guides/monitoring-v2-configuration/helm-chart-options.adoc#configuring-resource-limits-and-requests[this page.]
+The resource requests and limits for the monitoring application can be configured when installing `rancher-monitoring`. For more information about the default limits, see ../../../reference-guides/monitoring-v2-configuration/helm-chart-options.adoc#configuring-resource-limits-and-requests[this page.]
 
 [TIP]
 ====

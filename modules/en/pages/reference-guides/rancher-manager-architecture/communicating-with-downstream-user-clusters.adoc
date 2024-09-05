@@ -229,4 +229,4 @@ The GitHub repositories for Rancher can be found at the following links:
 * https://github.com/rancher/cli[Rancher CLI]
 * https://github.com/rancher/helm[Catalog applications]
 
-This is a partial list of the most important Rancher repositories. For more details about Rancher source code, refer to the section on link:../../contribute-to-rancher.adoc#rancher-repositories[contributing to Rancher.] To see all libraries and projects used in Rancher, see the https://github.com/rancher/rancher/blob/master/go.mod[`go.mod` file] in the `rancher/rancher` repository.
+This is a partial list of the most important Rancher repositories. For more details about Rancher source code, refer to the section on ../../contribute-to-rancher.adoc#rancher-repositories[contributing to Rancher.] To see all libraries and projects used in Rancher, see the https://github.com/rancher/rancher/blob/master/go.mod[`go.mod` file] in the `rancher/rancher` repository.

@@ -7,7 +7,7 @@ If you have custom or imported hardened clusters, you must take special preparat
 [NOTE]
 ====
 
-After you upgrade to v1.25, add the necessary Rancher namespace exemptions. See link:../../../how-to-guides/new-user-guides/authentication-permissions-and-global-configuration/psa-config-templates.adoc#exempting-required-rancher-namespaces[Pod Security Admission (PSA) Configuration Templates] for more details.
+After you upgrade to v1.25, add the necessary Rancher namespace exemptions. See ../../../how-to-guides/new-user-guides/authentication-permissions-and-global-configuration/psa-config-templates.adoc#exempting-required-rancher-namespaces[Pod Security Admission (PSA) Configuration Templates] for more details.
 ====
 
 

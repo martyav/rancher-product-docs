@@ -18,7 +18,7 @@ To set up storage, follow these steps:
 
 === Prerequisites
 
-* To create a persistent volume as a Kubernetes resource, you must have the `Manage Volumes` link:../../../authentication-permissions-and-global-configuration/manage-role-based-access-control-rbac/cluster-and-project-roles.adoc#project-role-reference[role.]
+* To create a persistent volume as a Kubernetes resource, you must have the `Manage Volumes` ../../../authentication-permissions-and-global-configuration/manage-role-based-access-control-rbac/cluster-and-project-roles.adoc#project-role-reference[role.]
 * If you are provisioning storage for a cluster hosted in the cloud, the storage and cluster hosts must have the same cloud provider.
 
 === 1. Set up persistent storage

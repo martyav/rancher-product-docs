@@ -81,7 +81,7 @@ If you followed the naming convention we suggested in xref:upgrade-docker-instal
  rancher/rancher:<PRIOR_RANCHER_VERSION>
 ----
 +
-Privileged access is link:rancher-on-a-single-node-with-docker.adoc#privileged-access-for-rancher[required.]
+Privileged access is rancher-on-a-single-node-with-docker.adoc#privileged-access-for-rancher[required.]
 +
 
 [WARNING]

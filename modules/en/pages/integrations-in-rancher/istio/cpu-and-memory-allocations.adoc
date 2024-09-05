@@ -66,7 +66,7 @@ To configure the resources allocated to an Istio component,
 . In the left navigation bar, click *Apps*.
 . Click *Installed Apps*.
 . Go to the `istio-system` namespace. In one of the Istio workloads, such as `rancher-istio`, click *⋮ > Edit/Upgrade*.
-. Click *Upgrade* to edit the base components via changes to the values.yaml or add an link:configuration-options/configuration-options.adoc#overlay-file[overlay file]. For more information about editing the overlay file, see link:cpu-and-memory-allocations.adoc#editing-the-overlay-file[this section.]
+. Click *Upgrade* to edit the base components via changes to the values.yaml or add an configuration-options/configuration-options.adoc#overlay-file[overlay file]. For more information about editing the overlay file, see cpu-and-memory-allocations.adoc#editing-the-overlay-file[this section.]
 . Change the CPU or memory allocations, the nodes where each component will be scheduled to, or the node tolerations.
 . Click *Upgrade*. to rollout changes
 

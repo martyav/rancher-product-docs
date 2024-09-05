@@ -86,7 +86,7 @@ To give role-based access to your service principal,
 . Click *Cloud Credentials*.
 . Click *Create*.
 . Click *Azure*.
-. Fill out the form. For help with filling out the form, see the link:../../../../reference-guides/cluster-configuration/rancher-server-configuration/aks-cluster-configuration.adoc#cloud-credentials[configuration reference.]
+. Fill out the form. For help with filling out the form, see the ../../../../reference-guides/cluster-configuration/rancher-server-configuration/aks-cluster-configuration.adoc#cloud-credentials[configuration reference.]
 . Click *Create*.
 
 == Create the AKS Cluster
@@ -249,7 +249,7 @@ For more information about connecting to an AKS private cluster, see the https:/
 
 The AKS provisioner can synchronize the state of an AKS cluster between Rancher and the provider. For an in-depth technical explanation of how this works, see xref:../../../../reference-guides/cluster-configuration/rancher-server-configuration/sync-clusters.adoc[Syncing.]
 
-For information on configuring the refresh interval, see link:../../../../reference-guides/cluster-configuration/rancher-server-configuration/gke-cluster-configuration/gke-cluster-configuration.adoc#configuring-the-refresh-interval[this section.]
+For information on configuring the refresh interval, see ../../../../reference-guides/cluster-configuration/rancher-server-configuration/gke-cluster-configuration/gke-cluster-configuration.adoc#configuring-the-refresh-interval[this section.]
 
 == Programmatically Creating AKS Clusters
 

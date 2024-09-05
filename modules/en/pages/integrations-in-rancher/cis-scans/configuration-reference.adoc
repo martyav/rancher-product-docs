@@ -100,7 +100,7 @@ metadata:
     app.kubernetes.io/managed-by: Helm
   name: cis-1.5
   resourceVersion: "203878"
-  selfLink: /apis/cis.cattle.io/v1/clusterscanbenchmarks/cis-1.5
+  self /apis/cis.cattle.io/v1/clusterscanbenchmarks/cis-1.5
   uid: 309e543e-9102-4091-be91-08d7af7fb7a7
 spec:
   clusterProvider: ""

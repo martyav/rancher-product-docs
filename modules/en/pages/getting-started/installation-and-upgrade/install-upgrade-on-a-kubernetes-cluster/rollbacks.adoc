@@ -81,7 +81,7 @@ A restore is performed by creating a Restore custom resource.
 [NOTE]
 ====
 +
-If the Rancher Backups app is not visible, you will need to install it from the Charts page in *Apps*. Refer link:../../../how-to-guides/new-user-guides/helm-charts-in-rancher/helm-charts-in-rancher.adoc#access-charts[here] for more information.
+If the Rancher Backups app is not visible, you will need to install it from the Charts page in *Apps*. Refer ../../../how-to-guides/new-user-guides/helm-charts-in-rancher/helm-charts-in-rancher.adoc#access-charts[here] for more information.
 +
 ====
 

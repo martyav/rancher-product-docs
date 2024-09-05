@@ -8,8 +8,8 @@ You can enable API Auditing during Rancher installation or upgrade.
 
 The Audit Log is enabled and configured by passing environment variables to the Rancher server container. See the following to enable on your installation.
 
-* link:../../reference-guides/single-node-rancher-in-docker/advanced-options.adoc#api-audit-log[Docker Install]
-* link:../../getting-started/installation-and-upgrade/installation-references/helm-chart-options.adoc#api-audit-log[Kubernetes Install]
+* ../../reference-guides/single-node-rancher-in-docker/advanced-options.adoc#api-audit-log[Docker Install]
+* ../../getting-started/installation-and-upgrade/installation-references/helm-chart-options.adoc#api-audit-log[Kubernetes Install]
 
 == API Audit Log Options
 

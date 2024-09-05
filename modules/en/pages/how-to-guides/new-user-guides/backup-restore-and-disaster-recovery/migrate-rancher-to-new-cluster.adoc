@@ -120,7 +120,7 @@ The field `encryptionConfigSecretName` should be used only if your backup was cr
 +
 If this applies, provide the name of the `Secret` object containing the encryption config file. If you only have the encryption config file, but don't have the secret created in this cluster, use the following steps to create the secret:
 
- .. Create an link:../../../reference-guides/backup-restore-configuration/backup-configuration.adoc#encryption[encryption configuration file]
+ .. Create an ../../../reference-guides/backup-restore-configuration/backup-configuration.adoc#encryption[encryption configuration file]
  .. The command below uses a file named `encryption-provider-config.yaml`, with the `--from-file` flag. Run the below once the `EncryptionConfiguration` is saved in a file called `encryption-provider-config.yaml`:
 +
 [,bash]
@@ -160,7 +160,7 @@ kubectl logs -n cattle-resources-system --tail 100 -f -l app.kubernetes.io/insta
 
 === 3. Install cert-manager
 
-Follow the steps to link:../../../getting-started/installation-and-upgrade/install-upgrade-on-a-kubernetes-cluster/install-upgrade-on-a-kubernetes-cluster.adoc#4-install-cert-manager[install cert-manager] in the documentation about installing cert-manager on Kubernetes.
+Follow the steps to ../../../getting-started/installation-and-upgrade/install-upgrade-on-a-kubernetes-cluster/install-upgrade-on-a-kubernetes-cluster.adoc#4-install-cert-manager[install cert-manager] in the documentation about installing cert-manager on Kubernetes.
 
 === 4. Bring up Rancher with Helm
 

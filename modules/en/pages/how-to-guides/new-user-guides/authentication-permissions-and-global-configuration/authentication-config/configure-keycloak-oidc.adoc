@@ -202,7 +202,7 @@ After configuration is completed, Rancher user permissions will need to be reapp
 
 == Annex: Troubleshooting
 
-If you are experiencing issues while testing the connection to the Keycloak server, first double-check the configuration options of your OIDC client. You may also inspect the Rancher logs to help pinpoint what's causing issues. Debug logs may contain more detailed information about the error. Please refer to link:../../../../faq/technical-items.adoc#how-can-i-enable-debug-logging[How can I enable debug logging] in this documentation.
+If you are experiencing issues while testing the connection to the Keycloak server, first double-check the configuration options of your OIDC client. You may also inspect the Rancher logs to help pinpoint what's causing issues. Debug logs may contain more detailed information about the error. Please refer to ../../../../faq/technical-items.adoc#how-can-i-enable-debug-logging[How can I enable debug logging] in this documentation.
 
 All Keycloak related log entries will be prepended with either `[generic oidc]` or `[keycloak oidc]`.
 

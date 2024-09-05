@@ -127,7 +127,7 @@ ____
 xref:../configure-openldap/openldap-config-reference.adoc[Configure the settings] for the OpenLDAP server, groups and users. Note that nested group membership isn't available.
 
 ____
-Before you proceed with the configuration, please familiarise yourself with link:authentication-config.adoc#external-authentication-configuration-and-principal-users[external authentication configuration and principal users].
+Before you proceed with the configuration, please familiarise yourself with authentication-config.adoc#external-authentication-configuration-and-principal-users[external authentication configuration and principal users].
 ____
 
 . Sign into Rancher using a local user assigned the https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/authentication-permissions-and-global-configuration/manage-role-based-access-control-rbac/global-permissions[administrator] role (i.e., the _local principal_).
@@ -136,4 +136,4 @@ ____
 . Click *Okta* or, if SAML is already configured, *Edit Config*
 . Under *User and Group Search*, check *Configure an OpenLDAP server*
 
-If you experience issues when you test the connection to the OpenLDAP server, ensure that you entered the credentials for the service account and configured the search base correctly. Inspecting the Rancher logs can help pinpoint the root cause. Debug logs may contain more detailed information about the error. Please refer to link:../../../../faq/technical-items.adoc#how-can-i-enable-debug-logging[How can I enable debug logging] for more information.
+If you experience issues when you test the connection to the OpenLDAP server, ensure that you entered the credentials for the service account and configured the search base correctly. Inspecting the Rancher logs can help pinpoint the root cause. Debug logs may contain more detailed information about the error. Please refer to ../../../../faq/technical-items.adoc#how-can-i-enable-debug-logging[How can I enable debug logging] for more information.

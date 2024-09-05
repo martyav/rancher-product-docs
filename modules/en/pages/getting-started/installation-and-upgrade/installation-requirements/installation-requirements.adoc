@@ -21,7 +21,7 @@ Rancher needs to be installed on a supported Kubernetes version. Consult the htt
 
 === Install Rancher on a Hardened Kubernetes cluster
 
-If you install Rancher on a hardened Kubernetes cluster, check the link:../../../how-to-guides/new-user-guides/authentication-permissions-and-global-configuration/psa-config-templates.adoc#exempting-required-rancher-namespaces[Exempting Required Rancher Namespaces] section for detailed requirements.
+If you install Rancher on a hardened Kubernetes cluster, check the ../../../how-to-guides/new-user-guides/authentication-permissions-and-global-configuration/psa-config-templates.adoc#exempting-required-rancher-namespaces[Exempting Required Rancher Namespaces] section for detailed requirements.
 
 == Operating Systems and Container Runtime Requirements
 

@@ -19,7 +19,7 @@
 . If you have not already installed your own monitoring app, you will be prompted to install the rancher-monitoring app. Optional: Set your Selector or Scrape config options on rancher-monitoring app install.
 . Optional: Configure member access and xref:../../../integrations-in-rancher/istio/cpu-and-memory-allocations.adoc[resource limits] for the Istio components. Ensure you have enough resources on your worker nodes to enable Istio.
 . Optional: Make additional configuration changes to values.yaml if needed.
-. Optional: Add further resources or configuration via the link:../../../integrations-in-rancher/istio/configuration-options/configuration-options.adoc#overlay-file[overlay file].
+. Optional: Add further resources or configuration via the ../../../integrations-in-rancher/istio/configuration-options/configuration-options.adoc#overlay-file[overlay file].
 . Click *Install*.
 
 *Result:* Istio is installed at the cluster level.

@@ -42,4 +42,4 @@ Rancher supports several major cloud providers, but by default, these node drive
 
 There are several other node drivers that are disabled by default, but are packaged in Rancher:
 
-* link:../../../../integrations-in-rancher/harvester/overview.adoc#harvester-node-driver/[Harvester], available as of Rancher v2.6.1
+* ../../../../integrations-in-rancher/harvester/overview.adoc#harvester-node-driver/[Harvester], available as of Rancher v2.6.1

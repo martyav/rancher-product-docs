@@ -108,7 +108,7 @@ Out of the box, Rancher is compatible with the following network providers:
 * https://docs.projectcalico.org/v3.11/introduction/[Calico]
 * https://github.com/k8snetworkplumbingwg/multus-cni[Multus]
 
-* When using <<project-network-isolation,project network isolation>> in the link:../../../faq/container-network-interface-providers.adoc#cilium[Cilium CNI], it is possible to enable cross-node ingress routing. Click the link:../../../faq/container-network-interface-providers.adoc#ingress-routing-across-nodes-in-cilium[CNI provider docs] to learn more.
+* When using <<project-network-isolation,project network isolation>> in the ../../../faq/container-network-interface-providers.adoc#cilium[Cilium CNI], it is possible to enable cross-node ingress routing. Click the ../../../faq/container-network-interface-providers.adoc#ingress-routing-across-nodes-in-cilium[CNI provider docs] to learn more.
 
 For more details on the different networking providers and how to configure them, please view our https://docs.rke2.io/install/network_options[RKE2 documentation].
 
@@ -235,9 +235,9 @@ Authorized Cluster Endpoint can be used to directly access the Kubernetes API se
 
 This is enabled by default in Rancher-launched Kubernetes clusters, using the IP of the node with the `controlplane` role and the default Kubernetes self signed certificates.
 
-For more detail on how an authorized cluster endpoint works and why it is used, refer to the link:../../../reference-guides/rancher-manager-architecture/communicating-with-downstream-user-clusters.adoc#4-authorized-cluster-endpoint[architecture section.]
+For more detail on how an authorized cluster endpoint works and why it is used, refer to the ../../../reference-guides/rancher-manager-architecture/communicating-with-downstream-user-clusters.adoc#4-authorized-cluster-endpoint[architecture section.]
 
-We recommend using a load balancer with the authorized cluster endpoint. For details, refer to the link:../../rancher-manager-architecture/architecture-recommendations.adoc#architecture-for-an-authorized-cluster-endpoint-ace[recommended architecture section.]
+We recommend using a load balancer with the authorized cluster endpoint. For details, refer to the ../../rancher-manager-architecture/architecture-recommendations.adoc#architecture-for-an-authorized-cluster-endpoint-ace[recommended architecture section.]
 
 ==== Registries
 

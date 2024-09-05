@@ -62,7 +62,7 @@ When Rancher is installed on an air gapped Kubernetes cluster, there are two rec
 [NOTE]
 ====
 
-If you want terminate SSL/TLS externally, see link:../../installation-references/helm-chart-options.adoc#external-tls-termination[TLS termination on an External Load Balancer].
+If you want terminate SSL/TLS externally, see ../../installation-references/helm-chart-options.adoc#external-tls-termination[TLS termination on an External Load Balancer].
 ====
 
 
@@ -302,7 +302,7 @@ If you don't intend to send telemetry data, opt out xref:../../../../faq/telemet
 
 These resources could be helpful when installing Rancher:
 
-* link:../../../../integrations-in-rancher/rancher-extensions.adoc#importing-and-installing-extensions-in-an-air-gapped-environment[Importing and installing extensions in an air-gapped environment]
+* ../../../../integrations-in-rancher/rancher-extensions.adoc#importing-and-installing-extensions-in-an-air-gapped-environment[Importing and installing extensions in an air-gapped environment]
 * xref:../../installation-references/helm-chart-options.adoc[Rancher Helm chart options]
 * xref:../../resources/add-tls-secrets.adoc[Adding TLS secrets]
 * xref:../../install-upgrade-on-a-kubernetes-cluster/troubleshooting.adoc[Troubleshooting Rancher Kubernetes Installations]

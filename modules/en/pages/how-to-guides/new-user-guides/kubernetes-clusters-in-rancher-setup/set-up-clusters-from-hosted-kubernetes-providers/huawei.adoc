@@ -1,6 +1,6 @@
 = Creating a Huawei CCE Cluster
 
-You can use Rancher to create a cluster hosted in Huawei Cloud Container Engine (CCE). Rancher has already implemented and packaged the xref:../../authentication-permissions-and-global-configuration/about-provisioning-drivers/manage-cluster-drivers.adoc[cluster driver] for CCE, but by default, this cluster driver is `inactive`. In order to launch CCE clusters, you will need to link:../../authentication-permissions-and-global-configuration/about-provisioning-drivers/manage-cluster-drivers.adoc#activatingdeactivating-cluster-drivers[enable the CCE cluster driver]. After enabling the cluster driver, you can start provisioning CCE clusters.
+You can use Rancher to create a cluster hosted in Huawei Cloud Container Engine (CCE). Rancher has already implemented and packaged the xref:../../authentication-permissions-and-global-configuration/about-provisioning-drivers/manage-cluster-drivers.adoc[cluster driver] for CCE, but by default, this cluster driver is `inactive`. In order to launch CCE clusters, you will need to ../../authentication-permissions-and-global-configuration/about-provisioning-drivers/manage-cluster-drivers.adoc#activatingdeactivating-cluster-drivers[enable the CCE cluster driver]. After enabling the cluster driver, you can start provisioning CCE clusters.
 
 == Prerequisites in Huawei
 
@@ -94,7 +94,7 @@ You can access your cluster after its state is updated to *Active*.
 [NOTE]
 ====
 
-If you are editing the cluster in the `cluster.yml` instead of the Rancher UI, note that cluster configuration directives must be nested under the `rancher_kubernetes_engine_config` directive in `cluster.yml`. For more information, refer to the section on link:../../../../reference-guides/cluster-configuration/rancher-server-configuration/rke1-cluster-configuration.adoc#config-file-structure-in-rancher[the config file structure.]
+If you are editing the cluster in the `cluster.yml` instead of the Rancher UI, note that cluster configuration directives must be nested under the `rancher_kubernetes_engine_config` directive in `cluster.yml`. For more information, refer to the section on ../../../../reference-guides/cluster-configuration/rancher-server-configuration/rke1-cluster-configuration.adoc#config-file-structure-in-rancher[the config file structure.]
 ====
 
 

@@ -39,11 +39,11 @@ In RHEL 8.4, two extra services are included on the NetworkManager: `nm-cloud-se
 
 === SUSE Linux Nodes
 
-SUSE Linux may have a firewall that blocks all ports by default. In that situation, follow link:../../../getting-started/installation-and-upgrade/installation-requirements/port-requirements.adoc#opening-suse-linux-ports[these steps] to open the ports needed for adding a host to a custom cluster.
+SUSE Linux may have a firewall that blocks all ports by default. In that situation, follow ../../../getting-started/installation-and-upgrade/installation-requirements/port-requirements.adoc#opening-suse-linux-ports[these steps] to open the ports needed for adding a host to a custom cluster.
 
 === Flatcar Container Linux Nodes
 
-When xref:../launch-kubernetes-with-rancher/launch-kubernetes-with-rancher.adoc[Launching Kubernetes with Rancher] using Flatcar Container Linux nodes, it is required to use the following configuration in the link:../../../reference-guides/cluster-configuration/rancher-server-configuration/rke1-cluster-configuration.adoc#rke-cluster-config-file-reference[Cluster Config File]
+When xref:../launch-kubernetes-with-rancher/launch-kubernetes-with-rancher.adoc[Launching Kubernetes with Rancher] using Flatcar Container Linux nodes, it is required to use the following configuration in the ../../../reference-guides/cluster-configuration/rancher-server-configuration/rke1-cluster-configuration.adoc#rke-cluster-config-file-reference[Cluster Config File]
 
 [tabs]
 ======
@@ -62,7 +62,7 @@ It is also required to enable the Docker service, you can enable the Docker serv
 systemctl enable docker.service
 ----
 
-The Docker service is enabled automatically when using link:../authentication-permissions-and-global-configuration/about-provisioning-drivers/about-provisioning-drivers.adoc#node-drivers[Node Drivers].
+The Docker service is enabled automatically when using ../authentication-permissions-and-global-configuration/about-provisioning-drivers/about-provisioning-drivers.adoc#node-drivers[Node Drivers].
 
 === Windows Nodes
 
@@ -88,7 +88,7 @@ The ports required to be open are different depending on how the user cluster is
 
 For a breakdown of the port requirements for etcd nodes, controlplane nodes, and worker nodes in a Kubernetes cluster, refer to the https://rancher.com/docs/rke/latest/en/os/#ports[port requirements for the Rancher Kubernetes Engine.]
 
-Details on which ports are used in each situation are found under link:../../../getting-started/installation-and-upgrade/installation-requirements/port-requirements.adoc#downstream-kubernetes-cluster-nodes[Downstream Cluster Port Requirements].
+Details on which ports are used in each situation are found under ../../../getting-started/installation-and-upgrade/installation-requirements/port-requirements.adoc#downstream-kubernetes-cluster-nodes[Downstream Cluster Port Requirements].
 
 [CAUTION]
 ====
@@ -101,4 +101,4 @@ You should never register a node with the same hostname or IP address as an exis
 
 If you want to provision a Kubernetes cluster that is compliant with the CIS (Center for Internet Security) Kubernetes Benchmark, we recommend to following our hardening guide to configure your nodes before installing Kubernetes.
 
-For more information on the hardening guide and details on which version of the guide corresponds to your Rancher and Kubernetes versions, refer to the link:../../../reference-guides/rancher-security/rancher-security.adoc#rancher-hardening-guide[security section.]
+For more information on the hardening guide and details on which version of the guide corresponds to your Rancher and Kubernetes versions, refer to the ../../../reference-guides/rancher-security/rancher-security.adoc#rancher-hardening-guide[security section.]

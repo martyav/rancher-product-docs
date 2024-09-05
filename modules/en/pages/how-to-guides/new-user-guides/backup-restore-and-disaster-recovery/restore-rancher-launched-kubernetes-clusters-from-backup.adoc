@@ -2,7 +2,7 @@
 
 Etcd backup and recovery for xref:../launch-kubernetes-with-rancher/launch-kubernetes-with-rancher.adoc[Rancher launched Kubernetes clusters] can be easily performed. Snapshots of the etcd database are taken and saved either locally onto the etcd nodes or to a S3 compatible target. The advantages of configuring S3 is that if all etcd nodes are lost, your snapshot is saved remotely and can be used to restore the cluster.
 
-Rancher recommends enabling the link:back-up-rancher-launched-kubernetes-clusters.adoc#configuring-recurring-snapshots[ability to set up recurring snapshots of etcd], but link:back-up-rancher-launched-kubernetes-clusters.adoc#one-time-snapshots[one-time snapshots] can easily be taken as well. Rancher allows restore from <<restoring-a-cluster-from-a-snapshot,saved snapshots>> or if you don't have any snapshots, you can still <<recovering-etcd-without-a-snapshot-rke,restore etcd>>.
+Rancher recommends enabling the back-up-rancher-launched-kubernetes-clusters.adoc#configuring-recurring-snapshots[ability to set up recurring snapshots of etcd], but back-up-rancher-launched-kubernetes-clusters.adoc#one-time-snapshots[one-time snapshots] can easily be taken as well. Rancher allows restore from <<restoring-a-cluster-from-a-snapshot,saved snapshots>> or if you don't have any snapshots, you can still <<recovering-etcd-without-a-snapshot-rke,restore etcd>>.
 
 Clusters can also be restored to a prior Kubernetes version and cluster configuration.
 
@@ -24,13 +24,13 @@ Snapshots are composed of the cluster data in etcd, the Kubernetes version, and 
 * *Restore etcd and Kubernetes version:* This option should be used if a Kubernetes upgrade is the reason that your cluster is failing, and you haven't made any cluster configuration changes.
 * *Restore etcd, Kubernetes versions and cluster configuration:* This option should be used if you changed both the Kubernetes version and cluster configuration when upgrading.
 
-When rolling back to a prior Kubernetes version, the link:../../../getting-started/installation-and-upgrade/upgrade-and-roll-back-kubernetes.adoc#configuring-the-upgrade-strategy[upgrade strategy options] are ignored. Worker nodes are not cordoned or drained before being reverted to the older Kubernetes version, so that an unhealthy cluster can be more quickly restored to a healthy state.
+When rolling back to a prior Kubernetes version, the ../../../getting-started/installation-and-upgrade/upgrade-and-roll-back-kubernetes.adoc#configuring-the-upgrade-strategy[upgrade strategy options] are ignored. Worker nodes are not cordoned or drained before being reverted to the older Kubernetes version, so that an unhealthy cluster can be more quickly restored to a healthy state.
 
 [NOTE]
 .Prerequisite:
 ====
 
-To restore snapshots from S3, the cluster needs to be configured to link:back-up-rancher-launched-kubernetes-clusters.adoc#configuring-recurring-snapshots[take recurring snapshots on S3.]
+To restore snapshots from S3, the cluster needs to be configured to back-up-rancher-launched-kubernetes-clusters.adoc#configuring-recurring-snapshots[take recurring snapshots on S3.]
 ====
 
 

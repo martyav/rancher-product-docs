@@ -7,7 +7,7 @@ image::user-settings.png[User Settings Menu]
 The available user settings are:
 
 * xref:api-keys.adoc[API & Keys]: If you want to interact with Rancher programmatically, you need an API key. Follow the directions in this section to obtain a key.
-* xref:manage-cloud-credentials.adoc[Cloud Credentials]: Manage cloud credentials link:../../how-to-guides/new-user-guides/launch-kubernetes-with-rancher/use-new-nodes-in-an-infra-provider/use-new-nodes-in-an-infra-provider.adoc#node-templates[used by node templates] to xref:../../how-to-guides/new-user-guides/launch-kubernetes-with-rancher/launch-kubernetes-with-rancher.adoc[provision nodes for clusters].
+* xref:manage-cloud-credentials.adoc[Cloud Credentials]: Manage cloud credentials ../../how-to-guides/new-user-guides/launch-kubernetes-with-rancher/use-new-nodes-in-an-infra-provider/use-new-nodes-in-an-infra-provider.adoc#node-templates[used by node templates] to xref:../../how-to-guides/new-user-guides/launch-kubernetes-with-rancher/launch-kubernetes-with-rancher.adoc[provision nodes for clusters].
 * xref:manage-node-templates.adoc[Node Templates]: Manage templates xref:../../how-to-guides/new-user-guides/launch-kubernetes-with-rancher/launch-kubernetes-with-rancher.adoc[used by Rancher to provision nodes for clusters].
 * xref:user-preferences.adoc[Preferences]: Sets superficial preferences for the Rancher UI.
 * Log Out: Ends your user session.

@@ -11,7 +11,7 @@ NOTE: Each entitlement grants access to support for a certain amount of nodes. Y
 
 === 2. Create an EKS Cluster
 
-Follow the xref:../../../getting-started/installation-and-upgrade/install-upgrade-on-a-kubernetes-cluster/rancher-on-amazon-eks.adoc[Rancher docs] to create an EKS cluster. When you get to the link:../../../getting-started/installation-and-upgrade/install-upgrade-on-a-kubernetes-cluster/rancher-on-amazon-eks.adoc#8-install-the-rancher-helm-chart[final step to install Rancher], *stop and return to this page*. This cluster will need to meet the following requirements:
+Follow the xref:../../../getting-started/installation-and-upgrade/install-upgrade-on-a-kubernetes-cluster/rancher-on-amazon-eks.adoc[Rancher docs] to create an EKS cluster. When you get to the ../../../getting-started/installation-and-upgrade/install-upgrade-on-a-kubernetes-cluster/rancher-on-amazon-eks.adoc#8-install-the-rancher-helm-chart[final step to install Rancher], *stop and return to this page*. This cluster will need to meet the following requirements:
 
 * EKS version 1.22.
 * Each node in the cluster has access to the registry containing Rancher and its related images.
@@ -21,7 +21,7 @@ Follow the xref:../../../getting-started/installation-and-upgrade/install-upgrad
 
 === 3. Install Rancher
 
-In addition to the options specified to install Rancher in the link:../../../getting-started/installation-and-upgrade/install-upgrade-on-a-kubernetes-cluster/rancher-on-amazon-eks.adoc#8-install-the-rancher-helm-chart[Rancher docs], you will also need to enable extra metrics.
+In addition to the options specified to install Rancher in the ../../../getting-started/installation-and-upgrade/install-upgrade-on-a-kubernetes-cluster/rancher-on-amazon-eks.adoc#8-install-the-rancher-helm-chart[Rancher docs], you will also need to enable extra metrics.
 This can be done through the Helm CLI through the following options:
 
 [,bash]

@@ -27,7 +27,7 @@ This option is only available for clusters xref:../launch-kubernetes-with-ranche
 
 . From the *Default Pod Security Policy* drop-down, select the policy you want to apply to the cluster.
 +
-Rancher ships with link:../authentication-permissions-and-global-configuration/create-pod-security-policies.adoc#default-psps[policies] of `restricted` and `unrestricted`, although you can link:../authentication-permissions-and-global-configuration/create-pod-security-policies.adoc#creating-psps[create custom policies] as well.
+Rancher ships with ../authentication-permissions-and-global-configuration/create-pod-security-policies.adoc#default-psps[policies] of `restricted` and `unrestricted`, although you can ../authentication-permissions-and-global-configuration/create-pod-security-policies.adoc#creating-psps[create custom policies] as well.
 
 . Click *Save*.
 

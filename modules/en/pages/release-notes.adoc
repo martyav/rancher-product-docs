@@ -3,7 +3,7 @@
 
 == Current Versions
 
-Here you can find links to supporting documentation for the current released version of Rancher v2.9, and its availability for link:/v2.8/getting-started/quick-start-guides/deploy-rancher-manager/prime[Rancher Prime] and the Community version of Rancher:
+Here you can find links to supporting documentation for the current released version of Rancher v2.9, and its availability for /v2.8/getting-started/quick-start-guides/deploy-rancher-manager/prime[Rancher Prime] and the Community version of Rancher:
 
 [cols="1,1,1,1,1,1"]
 |===
@@ -18,7 +18,7 @@ Here you can find links to supporting documentation for the current released ver
 
 |===
 
-Here you can find links to supporting documentation for the current released version of Rancher v2.8, and its availability for link:/v2.8/getting-started/quick-start-guides/deploy-rancher-manager/prime[Rancher Prime] and the Community version of Rancher:
+Here you can find links to supporting documentation for the current released version of Rancher v2.8, and its availability for /v2.8/getting-started/quick-start-guides/deploy-rancher-manager/prime[Rancher Prime] and the Community version of Rancher:
 
 [cols="1,1,1,1,1,1"]
 |===
@@ -33,7 +33,7 @@ Here you can find links to supporting documentation for the current released ver
 
 |===
 
-Here you can find links to supporting documentation for the current released version of Rancher v2.7, and its availability for link:/v2.7/getting-started/quick-start-guides/deploy-rancher-manager/prime[Rancher Prime] and the Community version of Rancher:
+Here you can find links to supporting documentation for the current released version of Rancher v2.7, and its availability for /v2.7/getting-started/quick-start-guides/deploy-rancher-manager/prime[Rancher Prime] and the Community version of Rancher:
 
 [cols="1,1,1,1,1,1"]
 |===
@@ -63,7 +63,7 @@ Here you can find links to supporting documentation for the current released ver
 
 == Past Versions
 
-Here you can find links to supporting documentation for previous versions of Rancher v2.9, and their availability for link:/v2.9/getting-started/quick-start-guides/deploy-rancher-manager/prime[Rancher Prime] and the Community version of Rancher:
+Here you can find links to supporting documentation for previous versions of Rancher v2.9, and their availability for /v2.9/getting-started/quick-start-guides/deploy-rancher-manager/prime[Rancher Prime] and the Community version of Rancher:
 
 [cols="1,1,1,1,1,1"]
 |===
@@ -78,7 +78,7 @@ Here you can find links to supporting documentation for previous versions of Ran
 
 |===
 
-Here you can find links to supporting documentation for previous versions of Rancher v2.8, and their availability for link:/v2.8/getting-started/quick-start-guides/deploy-rancher-manager/prime[Rancher Prime] and the Community version of Rancher:
+Here you can find links to supporting documentation for previous versions of Rancher v2.8, and their availability for /v2.8/getting-started/quick-start-guides/deploy-rancher-manager/prime[Rancher Prime] and the Community version of Rancher:
 
 [cols="1,1,1,1,1,1"]
 |===
@@ -135,7 +135,7 @@ Here you can find links to supporting documentation for previous versions of Ran
 
 |===
 
-Here you can find links to supporting documentation for previous versions of Rancher v2.7, and their availability for link:/v2.7/getting-started/quick-start-guides/deploy-rancher-manager/prime[Rancher Prime] and the Community version of Rancher:
+Here you can find links to supporting documentation for previous versions of Rancher v2.7, and their availability for /v2.7/getting-started/quick-start-guides/deploy-rancher-manager/prime[Rancher Prime] and the Community version of Rancher:
 
 [cols="1,1,1,1,1,1"]
 |===

@@ -9,7 +9,7 @@ Then you will create a vSphere cluster in Rancher, and when configuring the new 
 
 For details on configuring the vSphere node template, refer to the xref:../../../../../reference-guides/cluster-configuration/downstream-cluster-configuration/node-template-configuration/vsphere.adoc[vSphere node template configuration reference.]
 
-For details on configuring RKE Kubernetes clusters in Rancher, refer to the link:../../../../../reference-guides/cluster-configuration/rancher-server-configuration/rke1-cluster-configuration.adoc#rke-cluster-config-file-reference[cluster configuration reference.]
+For details on configuring RKE Kubernetes clusters in Rancher, refer to the ../../../../../reference-guides/cluster-configuration/rancher-server-configuration/rke1-cluster-configuration.adoc#rke-cluster-config-file-reference[cluster configuration reference.]
 
 * <<preparation-in-vmware-vsphere,Preparation in vSphere>>
 * <<creating-a-vmware-vsphere-cluster,Creating a vSphere Cluster>>
@@ -34,7 +34,7 @@ It must be ensured that the hosts running the Rancher server are able to establi
 * To the Host API (port 443/TCP) on all ESXi hosts used to instantiate virtual machines for the clusters (_only required when using the ISO creation method_).
 * To port 22/TCP and 2376/TCP on the created VMs
 
-See link:../../../kubernetes-clusters-in-rancher-setup/node-requirements-for-rancher-managed-clusters.adoc#networking-requirements[Node Networking Requirements] for a detailed list of port requirements applicable for creating nodes on an infrastructure provider.
+See ../../../kubernetes-clusters-in-rancher-setup/node-requirements-for-rancher-managed-clusters.adoc#networking-requirements[Node Networking Requirements] for a detailed list of port requirements applicable for creating nodes on an infrastructure provider.
 
 === Valid ESXi License for VMware vSphere API Access
 
@@ -63,7 +63,7 @@ If you have a cluster with DRS enabled, setting up https://docs.vmware.com/en/VM
 
 === 2. Create a node template with your cloud credentials
 
-Creating a link:../use-new-nodes-in-an-infra-provider.adoc#node-templates[node template] for vSphere will allow Rancher to provision new nodes in vSphere. Node templates can be reused for other clusters.
+Creating a ../use-new-nodes-in-an-infra-provider.adoc#node-templates[node template] for vSphere will allow Rancher to provision new nodes in vSphere. Node templates can be reused for other clusters.
 
 . Click *☰ > Cluster Management*.
 . Click menu:RKE1 Configuration[Node Templates].
@@ -84,7 +84,7 @@ Use Rancher to create a Kubernetes cluster in vSphere.
 . Use *Member Roles* to configure user authorization for the cluster. Click *Add Member* to add users that can access the cluster. Use the *Role* drop-down to set permissions for each user.
 . Use *Cluster Options* to choose the version of Kubernetes that will be installed, what network provider will be used and if you want to enable project network isolation. To see more cluster options, click on *Show advanced options*. For help configuring the cluster, refer to the xref:../../../../../reference-guides/cluster-configuration/rancher-server-configuration/rke1-cluster-configuration.adoc[RKE cluster configuration reference.]
 . If you want to dynamically provision persistent storage or other infrastructure later, you will need to enable the vSphere cloud provider by modifying the cluster YAML file. For details, refer to xref:../../../../../how-to-guides/new-user-guides/kubernetes-clusters-in-rancher-setup/set-up-cloud-providers/configure-in-tree-vsphere.adoc[in-tree vSphere cloud provider docs] and xref:../../../../../how-to-guides/new-user-guides/kubernetes-clusters-in-rancher-setup/set-up-cloud-providers/configure-out-of-tree-vsphere.adoc[out-of-tree vSphere cloud provider docs].
-. Add one or more node pools to your cluster. Each node pool uses a node template to provision new nodes. For more information about node pools, including best practices for assigning Kubernetes roles to the nodes, see link:../use-new-nodes-in-an-infra-provider.adoc#node-pools[this section.]
+. Add one or more node pools to your cluster. Each node pool uses a node template to provision new nodes. For more information about node pools, including best practices for assigning Kubernetes roles to the nodes, see ../use-new-nodes-in-an-infra-provider.adoc#node-pools[this section.]
 . Review your options to confirm they're correct. Then click *Create*.
 
 *Result:*
@@ -102,6 +102,6 @@ You can access your cluster after its state is updated to *Active*.
 
 After creating your cluster, you can access it through the Rancher UI. As a best practice, we recommend setting up these alternate ways of accessing your cluster:
 
-* *Access your cluster with the kubectl CLI:* Follow link:../../../../new-user-guides/manage-clusters/access-clusters/use-kubectl-and-kubeconfig.adoc#accessing-clusters-with-kubectl-from-your-workstation[these steps] to access clusters with kubectl on your workstation. In this case, you will be authenticated through the Rancher server's authentication proxy, then Rancher will connect you to the downstream cluster. This method lets you manage the cluster without the Rancher UI.
-* *Access your cluster with the kubectl CLI, using the authorized cluster endpoint:* Follow link:../../../../new-user-guides/manage-clusters/access-clusters/use-kubectl-and-kubeconfig.adoc#authenticating-directly-with-a-downstream-cluster[these steps] to access your cluster with kubectl directly, without authenticating through Rancher. We recommend setting up this alternative method to access your cluster so that in case you can't connect to Rancher, you can still access the cluster.
+* *Access your cluster with the kubectl CLI:* Follow ../../../../new-user-guides/manage-clusters/access-clusters/use-kubectl-and-kubeconfig.adoc#accessing-clusters-with-kubectl-from-your-workstation[these steps] to access clusters with kubectl on your workstation. In this case, you will be authenticated through the Rancher server's authentication proxy, then Rancher will connect you to the downstream cluster. This method lets you manage the cluster without the Rancher UI.
+* *Access your cluster with the kubectl CLI, using the authorized cluster endpoint:* Follow ../../../../new-user-guides/manage-clusters/access-clusters/use-kubectl-and-kubeconfig.adoc#authenticating-directly-with-a-downstream-cluster[these steps] to access your cluster with kubectl directly, without authenticating through Rancher. We recommend setting up this alternative method to access your cluster so that in case you can't connect to Rancher, you can still access the cluster.
 * *Provision Storage:* For an example of how to provision storage in vSphere using Rancher, refer to xref:../../../manage-clusters/provisioning-storage-examples/provisioning-storage-examples.adoc[this section.] In order to dynamically provision storage in vSphere, the vSphere provider must be enabled. For details, refer to xref:../../../../../how-to-guides/new-user-guides/kubernetes-clusters-in-rancher-setup/set-up-cloud-providers/configure-in-tree-vsphere.adoc[in-tree vSphere cloud provider docs] and xref:../../../../../how-to-guides/new-user-guides/kubernetes-clusters-in-rancher-setup/set-up-cloud-providers/configure-out-of-tree-vsphere.adoc[out-of-tree vSphere cloud provider docs].
