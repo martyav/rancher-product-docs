@@ -1,0 +1,11 @@
+site:
+  title: Rancher Docs
+  url: /
+content:
+  sources:
+  - url: https://github.com/martyav/rancher-product-docs.git
+    branches: [main]
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true

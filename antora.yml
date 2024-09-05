@@ -1,0 +1,7 @@
+name: rancher-docs
+title: Rancher Manager
+version: main
+display_version: 'v2.9'
+start_page: en:rancher-manager.adoc
+nav: 
+- modules/en/nav.adoc
