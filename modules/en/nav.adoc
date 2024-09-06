@@ -4,8 +4,8 @@
 ** xref:getting-started/overview.adoc[]
 ** xref:reference-guides/rancher-manager-architecture/rancher-manager-architecture.adoc[]
 ** xref:reference-guides/rancher-manager-architecture/architecture-recommendations.adoc[]
-** xref:reference-guides/rancher-manager-architecture/communicating-with-downstream-user-clusters[]
-** xref:reference-guides/rancher-manager-architecture/rancher-server-and-components[]
+** xref:reference-guides/rancher-manager-architecture/communicating-with-downstream-user-clusters.adoc[]
+** xref:reference-guides/rancher-manager-architecture/rancher-server-and-components.adoc[]
 ** xref:reference-guides/kubernetes-concepts.adoc[]
 ** xref:glossary.adoc[]
 * Prime Installation and Upgrades
